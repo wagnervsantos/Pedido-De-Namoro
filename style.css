@@ -1,0 +1,86 @@
+body{
+    text-align: center;
+    font-family: Arial, sans-serif, sans-serif;
+    background-color: rgb(255, 252, 255);
+    
+    
+}
+.color{
+    color: rgb(21, 0, 214);
+}
+h2{
+    color: rgb(0, 0, 0);
+}
+.teAmo{
+    color: #d63384;
+}
+
+.imagen{
+    max-width: 99%;
+    height: auto;
+}
+
+
+
+.btn1 {
+    background: black;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 80px;
+    border-radius: 5px;
+}
+.btn2 {
+    background: rgb(230, 7, 7);
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 80px;
+    border-radius: 5px;
+}
+.janela {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    height: auto;
+    background-color: rgba(250, 240, 240, 0.685);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    z-index: 9999;
+  }
+  .janela.abrir{
+    display: flex;
+  }
+  .fechar{
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    border: 0;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+  }
+ 
+/* Estilos para dispositivos com largura de tela menor ou igual a 768 pixels */
+@media screen and (max-width: 768px) {
+    
+    imagen{
+        max-width: 100%;
+        height: auto;
+  }
+  janela{
+    max-width: 100%;
+    height: auto;
+  }
+  }
+  
+  
